@@ -1,37 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Linktree</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f2f2f2;
-        }
-        #container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        }
-        #container a {
-            display: block;
-            padding: 10px 0;
-            text-decoration: none;
-            color: #333;
-        }
-        #container a:hover {
-            background-color: #f5f5f5;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nutricionista Juliana Simões</title>
 </head>
+
 <body>
-    <div id="container">
-        <a href="https://www.instagram.com/nutri.jusimoes">Instagram</a>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo"><img src="images/logos/logo_horizontal.png" alt="Nutricionista Juliana Simões"></h1>
+            <!-- <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobremim.html">Sobre mim</a></li>
+                    <li><a href="pacotes.html">Pacotes</a></li>
+                </ul>
+            </nav> -->
+        </div>
     </div>
+
+    <!-- Showcase -->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Acompanhamento nutricional</h1>
+                <p>Sou Nutricionista, especialista em Nutrição Clínica e tenho como objetivo criar rotinas saudáveis sem
+                    terrorismo nutricional, de acordo com as necessidades de cada indivíduo, seja nutricional, afetiva e
+                    financeira.</p>
+                <p>Estou aqui para ser a sua última nutricionista. Vamos agendar uma consulta?</p>
+                <a href="sobremim.html" class="btn btn-outline">Saiba Mais</a>
+            </div>
+
+            <div class="showcase-form card">
+                <img class="img-principal" src="images/Ju.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1">
+                Locais de Atendimento
+            </h3>
+
+            <!-- <div class="grid grid-3 text-center my-4"> -->
+            <div class="card flex">
+                <p>
+                    <strong>Shopping Nova América</strong><br>
+                    - Torre Office 1000 e 2000 (segunda, terça, sexta e sábado)<br>
+                    Apenas particular, com recibo de reembolso
+                </p>
+            </div>
+            <div class="card flex">
+                <p>
+                    <strong>Edifício Polo I</strong><br>
+                    - Clínica Dra. Rosangela Hohlenwerger
+                    - Estrada do Portela 99 - sala 1006 (terças e sextas)<br>
+                    Atendimento particular e planos: Bradesco, MedService e Porto Seguro
+                </p>
+            </div>
+            <div class="card flex">
+                <p>
+                    <strong>Atendimento Online</strong> (segunda, terça, sexta e sábado) <br>
+                    - Apenas particular, com recibo de reembolso
+                </p>
+            </div>
+            <!-- </div> -->
+    </section>
+
+    <section class="servicos-list">
+        <div class="servicos">
+            <h2 class="md text-center my-2">
+                Serviços
+            </h2>
+            <div class="container grid grid-3">
+                <div class="card flex">
+                    <h4>Avaliação nutricional</h4>
+                    <p>
+                        Conversamos sobre rotina, hábitos alimentares,
+                        dificuldades e objetivos
+                    </p>
+                </div>
+                <div class="card flex">
+                    <h4>Avaliação bioquímica</h4>
+                    <p>
+                        Avalio ou solicito exames laboratoriais
+                    </p>
+                </div>
+                <div class="card flex">
+                    <h4>Antropometria</h4>
+                    <p>
+                        Aferições de altura, peso, circunferências e dobras cutâneas
+                    </p>
+                </div>
+                <div class="card flex">
+                    <h4>Plano alimentar</h4>
+                    <p>
+                        Realizado de acordo com suas necessidades diárias. Disponibilizado em 2
+                        dias úteis, pelo e-mail e aplicativo de dieta
+                    </p>
+                </div>
+                <div class="card flex">
+                    <h4>Tratamento e prevenção de Doenças</h4>
+                    <p>
+                        Diabetes, Hipertensão, Obesidade,
+                        Esteatose Hepática e
+                        alterações intestinais
+                    </p>
+                </div>
+                <div class="card flex">
+                    <h4>Atendimento Online</h4>
+                    <p>
+                        Faça sua consulta sem precisar sair de casa!<br>
+                        O protocolo de medidas será enviado dois dias antes da consulta.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Languages
+    <section class="languages">
+        <h2 class="md text-center my-2">
+            Supported Languages
+        </h2>
+        <div class="container flex">
+            <div class="card">
+                <h4>Node.js</h4>
+                <img src="images/logos/node.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Python</h4>
+                <img src="images/logos/python.png" alt="">
+            </div>
+            <div class="card">
+                <h4>C#</h4>
+                <img src="images/logos/csharp.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Ruby</h4>
+                <img src="images/logos/ruby.png" alt="">
+            </div>
+            <div class="card">
+                <h4>PHP</h4>
+                <img src="images/logos/php.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Scala</h4>
+                <img src="images/logos/scala.png" alt="">
+            </div>
+            <div class="card">
+                <h4>Clojure</h4>
+                <img src="images/logos/clojure.png" alt="">
+            </div>
+        </div>
+    </section> -->
+
+    <!--Botão whatsapp-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send/?phone=5521964590253&text=Olá%20Juliana,%20Gostaria%20de%20marcar%20uma%20consulta!"
+        target="_blank">
+        <div class="btn-whatsapp pulsaDelay"><i class="fa fa-whatsapp"></i></div>
+    </a>
+    <!--Botão whatsapp-->
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <img src="images/logos/logo_maca.png" alt="Nutricionista Juliana Simões" style="width: 30%;">
+                <p>Copyright &copy; 2023</p>
+            </div>
+            <!-- <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobremim.html">Sobre mim</a></li>
+                    <li><a href="pacotes.html">Pacotes</a></li>
+                </ul>
+            </nav> -->
+            <div class="social">
+                <a
+                    href="https://api.whatsapp.com/send/?phone=5521964590253&text=Olá%20Juliana,%20Gostaria%20de%20marcar%20uma%20consulta!"><i
+                        class="fab fa-whatsapp fa-2x"></i></a>
+                <a href="https://www.instagram.com/nutri.jusimoes/"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://facebook.com/nutri.jusimoes"><i class="fab fa-facebook fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

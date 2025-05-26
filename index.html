@@ -1,37 +1,653 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nutricionista Juliana Simões</title>
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
-  <meta name="description" content="Nutricionista com objetivo em criar rotinas saudáveis sem terrorismo nutricional">
-  <meta name="keywords" content="nutricionista, Juliana Simões, consultas online, consultas presenciais, saúde, alimentação saudável">
-  <meta name="author" content="Juliana Simões">
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
-</head>
-<body>
-  <div class="container">
-    <div class="profile-header">
-      <img src="images/Ju.jpg" alt="Profile Picture" class="profile-img">
-      <h1>Juliana Simões <span class="hide-on-mobile">|</span> Nutricionista</h1>
-      <p>
-        Te ajudo a criar uma rotina saudável sem terrorismo<br>
-        CRN 17101407<br>
-        🌿 + de 1500 pacientes<br>
-        📍 RJ e Online<br>
-    </p>
-    </div>
-    <div class="links">
-      <a href="https://api.whatsapp.com/message/WZY3JKTFBMFKH1?autoload=1&app_absent=0"><button>WhatsApp<span class="followers">Agende uma consulta</span></button></a>
-      <a href="https://www.instagram.com/nutri.jusimoes/"><button>Instagram <span class="followers">Follow me!</span></button></a>
-      <a href="https://www.google.com/search?q=Nutricionista+Juliana+Sim%C3%B5es&oq=Nutricionista+Juliana+Sim%C3%B5es&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIICAEQABgWGB4yCggCEAAYgAQYogQyCggDEAAYgAQYogQyCggEEAAYgAQYogQyCggFEAAYgAQYogQyBggGEEUYPDIGCAcQRRg8MgYICBBFGDzSAQgxMDUxajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8#lrd=0x99634d4e5d95e5:0xf27ba7f00a2b6aee,1,,,,"><button>Google<span class="stars">Avaliações</span></button></a>
-      <a href="https://www.doctoralia.com.br/juliana-simoes/nutricionista/rio-de-janeiro"><button>Doctoralia<span class="stars">Avaliações</span></button></a>
-    </div>
-    <div class="footer">
-      <p>© 2024 Nutricionista Juliana Simões. </p>
-    </div>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juliana Simões - Nutricionista Clínica</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/image-styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&family=Playfair+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header e Navegação -->
+    <header id="header">
+      <div class="container">
+        <div class="logo">
+          <img
+            src="images/id-julianasimoes-01.png"
+            alt="Logo Juliana Simões - Nutricionista Clínica"
+          />
+        </div>
+        <nav id="nav">
+          <button
+            id="btn-mobile"
+            aria-label="Abrir Menu"
+            aria-haspopup="true"
+            aria-controls="menu"
+            aria-expanded="false"
+          >
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2>
+            Optar por uma alimentação saudável, é investir em qualidade de vida
+            a longo prazo
+          </h2>
+          <p>
+            Se você sente que já tentou de tudo e os resultados não vieram...
+            Saiba que você não está sozinho!
+          </p>
+          <a href="#contato" class="btn btn-primary">Agende sua Consulta</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Sobre Mim</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-image">
+            <div class="image-placeholder">
+              <i class="fas fa-user-circle"></i>
+            </div>
+          </div>
+          <div class="about-text">
+            <h3>Juliana Simões</h3>
+            <p class="subtitle">Nutricionista Clínica - CRN 17101407</p>
+            <p>
+              Olá! Sou Juliana Simões, nutricionista clínica com mais de 7 anos
+              de experiência no atendimento personalizado. Acredito que a
+              alimentação saudável vai muito além de folhas e frango grelhado,
+              por isso, tenho como objetivo ajudar pessoas a criarem hábitos
+              equilibrados, sem terrorismo - e sim, isso inclui um docinho de
+              vez em quando!
+            </p>
+            <p>
+              Pós graduada em Nutrição Clínica e Funcional, tenho experiência
+              com o emagrecimento saudável e no tratamento e prevenção de
+              diversas doenças crônicas como: Diabetes Hipertensão,
+              Dislipidemias, Resistência à insulina, Esteatose Hepática e
+              doenças gastrointestinais. Trabalho com uma abordagem considerando
+              não apenas os aspectos nutricionais, mas também fatores
+              emocionais, sociais e ambientais que influenciam nossa relação com
+              a comida.
+            </p>
+            <div class="credentials">
+              <div class="credential">
+                <i class="fas fa-graduation-cap"></i>
+                <div>
+                  <h4>Formação</h4>
+                  <p>
+                    Graduação em Nutrição - Universidade Veiga de Almeida (UVA)
+                  </p>
+                </div>
+              </div>
+              <div class="credential">
+                <i class="fas fa-award"></i>
+                <div>
+                  <h4>Pós Graduação</h4>
+                  <p>
+                    Nutrição Clínica - Universidade Federal do Rio de Janeiro
+                    (UFRJ)
+                  </p>
+                </div>
+              </div>
+              <div class="credential">
+                <i class="fas fa-award"></i>
+                <div>
+                  <h4>Pós Graduação</h4>
+                  <p>
+                    Nutrição Clínica, Ortomolecular, Funcional e Fitoterapia –
+                    NutMed
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Meus Serviços</h2>
+          <div class="divider"></div>
+          <p>
+            Conheça os serviços personalizados que ofereço para ajudar você a
+            alcançar seus objetivos de saúde.
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-weight"></i>
+            </div>
+            <h3>Consulta Nutricional</h3>
+            <p>
+              Espaço dedicado a você, com análise detalhada sobre a sua rotina,
+              incluindo composição corporal, avaliação de exames.
+            </p>
+            <a href="#contato" class="btn btn-outline">Saiba mais</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <h3>Plano Alimentar Personalizado</h3>
+            <p>
+              Desenvolvimento de um plano alimentar individualizado,
+              considerando suas preferências, rotina e objetivos específicos.
+            </p>
+            <a href="#contato" class="btn btn-outline">Saiba mais</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-desktop"></i>
+            </div>
+            <h3>Atendimento Online</h3>
+            <p>
+              Você terá o conforto de acessar de qualquer lugar do mundo. Um
+              protocolo de medidas será enviado antes da consulta.
+            </p>
+            <a href="#contato" class="btn btn-outline">Saiba mais</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-user-plus"></i>
+            </div>
+            <h3>Pacote Você + 1</h3>
+            <p>
+              Que tal alguém ao seu lado para iniciar novos hábitos? Pode ser
+              algum familiar, namorado(a) ou amigo(a). Exceto em Madureira.
+            </p>
+            <a href="#contato" class="btn btn-outline">Saiba mais</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <h3>Pacote Trimestral</h3>
+            <p>
+              Serão 3 consultas com intervalo de 30-45 dias, para você ter um
+              compromisso maior com a sua saúde e ter mais foco para alcançar o
+              seu objetivo. Exceto em Madureira.
+            </p>
+            <a href="#contato" class="btn btn-outline">Saiba mais</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-heartbeat"></i>
+            </div>
+            <h3>Plano de Saúde</h3>
+            <p>
+              Bradesco, MedService e Porto Seguro. Apenas consultas avulsas e
+              somente em Madureira.
+            </p>
+            <a href="#contato" class="btn btn-outline">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Depoimentos -->
+    <section id="depoimentos" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Depoimentos</h2>
+          <div class="divider"></div>
+          <p>Veja o que meus pacientes dizem sobre os resultados obtidos.</p>
+        </div>
+        <div class="testimonials-slider">
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                "Gostaria de agradecer imensamente à nutri Juliana pela
+                excelente rotina alimentar. Desde que comecei a seguir suas
+                orientações, percebi uma grande melhora na minha qualidade de
+                vida e na forma como me alimento. As recomendações foram
+                pensadas com carinho, e com explicações detalhadas respeitando
+                minhas necessidades de saúde e meu dia a dia. Me atendeu com
+                atenção e profissionalismo!"
+              </p>
+              <div class="testimonial-author">
+                <div class="author-image">
+                  <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="author-info">
+                  <h4>Raquel Pereira</h4>
+                  <!-- <p>Paciente há 1 ano</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                "Mudou completamente tudo!!! Consigo comer sem culpa, com
+                orientações sérias, sem terror nutricional. Atenciossissimaaa,
+                querida demais. Eu conto os dias pra consulta para conseguir ver
+                os progressos feitos."
+              </p>
+              <div class="testimonial-author">
+                <div class="author-image">
+                  <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="author-info">
+                  <h4>Igor Rodrigues</h4>
+                  <!-- <p>Paciente há 2 anos</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                "Atendimento maravilhoso! A nutri explica tudo na consulta e
+                ainda mantém contato no pós para saber como estamos. Sem contar
+                que o plano alimentar é possivel de se fazer e de acordo com a
+                rotina do paciente 🥰"
+              </p>
+              <div class="testimonial-author">
+                <div class="author-image">
+                  <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="author-info">
+                  <h4>Laryssa Faria</h4>
+                  <!-- <p>Paciente há 8 meses</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                "Excelente profissional. Seguimos juntas vai fazer quase 2 anos.
+                Me ajudou muito no meu processo de emagrecimento, cheguei
+                pesando uns 94 kgs e com muita compreensão e ajuda hoje estou
+                nos 74 kgs. Minha meta é chegar aos 68kgs e não imagino fazer
+                isso com outra profissional sem ser a Juliana. Gratidão pela
+                paciência e ajuda de sempre 2025 seguimos juntas rs."
+              </p>
+              <div class="testimonial-author">
+                <div class="author-image">
+                  <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="author-info">
+                  <h4>Andreia Reis</h4>
+                  <!-- <p>Paciente há 8 meses</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                "Juliana é uma profissional maravilhosa, que tem todo o jeito
+                pra te motivar sem te pressionar, fala e explica tudo de um
+                jeito leve, mas direto. Dá mais ânimo pra seguir a rotina da
+                dieta, sem ficar com "medo" da volta ao consultório, porque ela
+                é sempre tão atenciosa e afável que você não se sente oprimido.
+                Além de tudo, é uma pessoa super divertida."
+              </p>
+              <div class="testimonial-author">
+                <div class="author-image">
+                  <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="author-info">
+                  <h4>C M</h4>
+                  <!-- <p>Paciente há 8 meses</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>
+                "Melhor Nutricionista todas! Ouve a gente, faz a dieta de acordo
+                com que a gente consome... Educa, mostra o melhor caminho...
+                Quando comecei com ela eu pesava 70kg,hoje peso 61 kg,peso que
+                eu não pesava desde dos meus 20 anos. Meu marido também começou
+                com ela, mas para ganhar peso e está indo muito bem, está
+                conseguindo ganhar peso de modo saudável. Excelente
+                profissional."
+              </p>
+              <div class="testimonial-author">
+                <div class="author-image">
+                  <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="author-info">
+                  <h4>Evelyn Marins</h4>
+                  <!-- <p>Paciente há 8 meses</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-controls">
+          <button class="prev-btn" aria-label="Depoimento anterior">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <button class="next-btn" aria-label="Próximo depoimento">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Blog
+    <section id="blog" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Blog</h2>
+          <div class="divider"></div>
+          <p>Artigos e dicas sobre nutrição, saúde e bem-estar.</p>
+        </div>
+        <div class="blog-grid">
+          <article class="blog-card">
+            <div class="blog-image">
+              <div class="image-placeholder">
+                <i class="fas fa-seedling"></i>
+              </div>
+            </div>
+            <div class="blog-content">
+              <span class="blog-category">Alimentação Saudável</span>
+              <h3>10 Alimentos que Fortalecem o Sistema Imunológico</h3>
+              <p>
+                Descubra quais alimentos incluir na sua dieta para fortalecer
+                suas defesas naturais e prevenir doenças.
+              </p>
+              <a href="#" class="read-more"
+                >Ler mais <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="blog-card">
+            <div class="blog-image">
+              <div class="image-placeholder">
+                <i class="fas fa-carrot"></i>
+              </div>
+            </div>
+            <div class="blog-content">
+              <span class="blog-category">Nutrição Funcional</span>
+              <h3>Intestino Saudável: A Base para o Bem-estar</h3>
+              <p>
+                Entenda a importância da saúde intestinal e como ela afeta todo
+                o organismo, desde a imunidade até a saúde mental.
+              </p>
+              <a href="#" class="read-more"
+                >Ler mais <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="blog-card">
+            <div class="blog-image">
+              <div class="image-placeholder">
+                <i class="fas fa-apple-alt"></i>
+              </div>
+            </div>
+            <div class="blog-content">
+              <span class="blog-category">Dicas Práticas</span>
+              <h3>Como Montar Marmitas Saudáveis para a Semana</h3>
+              <p>
+                Guia prático para preparar refeições equilibradas e saborosas
+                para toda a semana, economizando tempo e dinheiro.
+              </p>
+              <a href="#" class="read-more"
+                >Ler mais <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+        </div>
+        <div class="blog-cta">
+          <a href="#" class="btn btn-secondary">Ver todos os artigos</a>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Seção Contato -->
+    <section id="contato" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Entre em Contato</h2>
+          <div class="divider"></div>
+          <p>
+            Estou à disposição para esclarecer suas dúvidas e agendar sua
+            consulta.
+          </p>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Locais de Atendimento</h3>
+                <p>
+                  <li>Shopping Nova América - Del Castilho - RJ</li>
+                  <li>Rua Senador Dantas, Centro - RJ</li>
+                  <li>Polo 1, Madureira - RJ</li>
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <h3>Whatsapp</h3>
+                <p>(21)97759-1306</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>E-mail</h3>
+                <p>nutri.julianasimoes@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h3>Horário de Atendimento</h3>
+                <p>Segunda a Sexta: 8h às 19h<br />Sábado: 8h às 12h</p>
+              </div>
+            </div>
+            <div class="social-media">
+              <h3>Redes Sociais</h3>
+              <div class="social-icons">
+                <a
+                  href="https://www.instagram.com/nutri.jusimoes/"
+                  aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  href="https://www.facebook.com/nutri.jusimoes"
+                  aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+                  href="https://br.linkedin.com/in/juliana-simões-651a61159"
+                  aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form
+              id="contactForm"
+              onsubmit="return sendWhatsApp(event)"
+              action="javascript:void(0);"
+            >
+              <div class="form-group">
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" name="phone" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Assunto</label>
+                <select id="subject" name="subject" required>
+                  <option value="" disabled selected>
+                    Selecione uma opção
+                  </option>
+                  <option value="consulta">Agendar Consulta</option>
+                  <option value="duvida">Dúvidas</option>
+                  <option value="parceria">Proposta de Parceria</option>
+                  <option value="outro">Outro</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="whatsapp-button">
+                <i class="fab fa-whatsapp"></i> Enviar via WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Juliana Simões</h3>
+            <p>Nutricionista Clínica</p>
+          </div>
+          <div class="footer-links">
+            <h4>Links Rápidos</h4>
+            <ul>
+              <li><a href="#home">Início</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#depoimentos">Depoimentos</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-services">
+            <h4>Serviços</h4>
+            <ul>
+              <li><a href="#servicos">Consulta Nutricional</a></li>
+              <li><a href="#servicos">Plano Alimentar Personalizado</a></li>
+              <li><a href="#servicos">Atendimento Online</a></li>
+              <li><a href="#servicos">Pacote Você + 1</a></li>
+              <li><a href="#servicos">Pacote Trimestral</a></li>
+              <li><a href="#servicos">Plano de Saúde</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contato</h4>
+            <p><i class="fas fa-phone-alt"></i> (21) 97759-1306</p>
+            <p><i class="fas fa-envelope"></i> nutri.julianasimoes@gmail.com</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 Juliana Simões - Nutricionista Clínica. Todos os
+            direitos reservados.
+          </p>
+          <p>
+            CRN 17101407 | Desenvolvido por <a href="#">Henrique Monte Mor</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>

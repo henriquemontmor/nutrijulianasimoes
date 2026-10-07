@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nutrijulianasimoes.com.br/sitemap.xml
